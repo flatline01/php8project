@@ -1,0 +1,17 @@
+{
+    "name": "cthul/php8project",
+    "autoload": {
+        "psr-4": {
+            "Flatline\\": "src/Flatline"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Porto",
+            "email": "cthulhu0@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
