@@ -12,7 +12,7 @@ echo $t->header();
 var_dump($_ENV);
 ?>
 
-<h1>hiii</h1>
+<h1 id="hey" class="title">hiii</h1>
 
 <?php
 echo $t->footer();
