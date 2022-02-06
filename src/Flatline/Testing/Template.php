@@ -3,13 +3,19 @@ namespace Flatline\Testing;
 
 class Template
 {
+    protected $path ="/views";
+
     public function __construct(){
         
     }
 
-    public function settings(){
-        return "ok, this works";
+    public function settings($arr_settings){
+        $this->$path = $arr_settings['path'];
     }
+    public function get_path(){
+        return $this->$path;
+    }
+
     public function header(){
         return <<<HEADER
         <!DOCTYPE html>

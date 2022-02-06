@@ -13,6 +13,7 @@
     ],
     "require": {
         "vlucas/phpdotenv": "^5.4",
-        "spatie/ignition": "^1.0"
+        "spatie/ignition": "^1.0",
+        "bramus/router": "~1.6"
     }
 }
