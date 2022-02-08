@@ -1,5 +1,5 @@
 <?php
-use Flatline\Testing\Template as Template;
+use Flatline\Templating\Template as Template;
 use Dotenv\Dotenv;
 
 require_once __DIR__ . '/vendor/autoload.php';

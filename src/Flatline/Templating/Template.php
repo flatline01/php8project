@@ -1,5 +1,5 @@
 <?php
-namespace Flatline\Testing;
+namespace Flatline\Templating;
 
 class Template
 {
